@@ -17,7 +17,7 @@ int main(void)
 		{
 		for (b = '1'; b <= '8'; b++)
 			{
-			for (c = '2'; c <= '9' ;c++)
+			for (c = '2'; c <= '9' ; c++)
 				{
 				if (a < b && b < c && c > a)
 					{
@@ -26,7 +26,7 @@ int main(void)
 					putchar(c);
 					if (a == '7' && b == '8' && c == '9')
 						{
-						break;	
+						break;
 						}
 					putchar(',');
 					putchar(' ');
@@ -36,5 +36,5 @@ int main(void)
 		}
 	putchar('\n');
 
-	return(0);
+	return (0);
 }
