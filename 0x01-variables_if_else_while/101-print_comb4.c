@@ -17,9 +17,10 @@ int main(void)
 		{
 		for (b = '1'; b <= '8'; b++)
 			{
-			for (c = '2'; c <= '9';c++)
+			for (c = '2'; c <= '9' ;c++)
 				{
-				if (a < b && b < c && c > a && c > b && a != ' ')
+				if (a < b && b < c && c > a)
+					{
 					putchar(a);
 					putchar(b);
 					putchar(c);
@@ -29,6 +30,7 @@ int main(void)
 						}
 					putchar(',');
 					putchar(' ');
+					}
 				}
 			}
 		}
