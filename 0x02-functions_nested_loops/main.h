@@ -7,7 +7,7 @@ void print_alphabet(void)
 		putchar(ch);
 		}
 
-	putchar('\n');
+	_putchar('\n');
 
 	return;
 }
