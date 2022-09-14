@@ -3,7 +3,7 @@
 /**
  * _isalpha - Entry point
  *
- * Return: Always 0
+ * Return:
  */
 
 int _isalpha(int c)
