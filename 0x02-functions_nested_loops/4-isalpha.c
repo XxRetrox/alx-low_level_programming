@@ -2,8 +2,8 @@
 
 /**
  * _isalpha - Entry point
- *
- * Return:
+ *@c: letter to be tested
+ * Return: value of c
  */
 
 int _isalpha(int c)
