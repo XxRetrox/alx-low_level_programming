@@ -22,14 +22,14 @@ void print_diagonal(int n)
 			{
 			for (b = 1; b < a; b++)
 				{
-				putchar (s);
+				_putchar (s);
 				}
-			putchar (u);
-			putchar ('\n');
+			_putchar (u);
+			_putchar ('\n');
 			}
 		}
 	else
 		{
-		putchar ('\n');
+		_putchar ('\n');
 		}
 }
