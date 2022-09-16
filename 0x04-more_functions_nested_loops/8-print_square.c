@@ -14,11 +14,11 @@ void print_square(int size)
 
 	u = 35;
 
-	if (n >= 1)
+	if (size >= 1)
 		{
-		for (a = 1; a <= n; a++)
+		for (a = 1; a <= size; a++)
 			{
-			for (b = 1; b <= n; b++)
+			for (b = 1; b <= size; b++)
 				{
 				_putchar (u);
 				}
