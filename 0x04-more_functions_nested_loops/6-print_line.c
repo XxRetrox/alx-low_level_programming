@@ -9,12 +9,15 @@
 void print_line(int n)
 {
 	int a;
+	int u;
+
+	u = 45;
 
 	if (n >= 1)
 		{
 		for (a = '1'; a <= n; a++)
 			{
-			_putchar (_);
+			_putchar (u);
 			}
 		_putchar ('\n');
 		}
