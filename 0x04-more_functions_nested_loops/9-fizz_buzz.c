@@ -15,9 +15,9 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 		{
-			f = i % 3;
-			b = i % 5;
-			fb = i % 15;
+		f = i % 3;
+		b = i % 5;
+		fb = i % 15;
 
 		if (fb == 0)
 			{
