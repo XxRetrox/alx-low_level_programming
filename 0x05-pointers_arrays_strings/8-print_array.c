@@ -15,7 +15,7 @@ void print_array(int *a, int n)
 		{
 		_putchar (a[b]);
 		
-		if (b == 5)
+		if (b == n)
 			{
 			break;
 			}
