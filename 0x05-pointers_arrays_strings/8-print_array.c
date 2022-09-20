@@ -20,8 +20,7 @@ void print_array(int *a, int n)
 			{
 			break;
 			}
-		_putchar (',');
-		_putchar (' ');
+		printf(", ");
 		}
 
 	_putchar ('\n');
