@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - Entry point
- * @n: letter to be tested
+ * @p: letter to be tested
  * Return: 0
  */
 
