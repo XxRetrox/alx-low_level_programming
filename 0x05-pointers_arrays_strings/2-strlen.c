@@ -16,7 +16,7 @@ int _strlen(char *s)
 	length = 0;
 	w = *s;
 
-	for (i = 0; i < strlen(w); i++)
+	for (i = 0; w[i] != '\0'; i++)
 		{
 		length++;
 		}
