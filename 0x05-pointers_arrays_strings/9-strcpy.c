@@ -3,7 +3,7 @@
 /**
  * *_strcpy - Entry
  * @dest: buffer
- * @scr: string
+ * @src: string
  * Return: 0
  */
 
