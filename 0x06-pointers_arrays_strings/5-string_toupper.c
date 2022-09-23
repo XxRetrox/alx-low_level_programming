@@ -2,31 +2,22 @@
 
 /**
  * string_toupper - Entry
- * @b: string to be converted
+ * @c: string to be converted
  * Return: 0
  */
 
-char *string_toupper(char *b)
+char *string_toupper(char *c)
 {
-	int i;
-	int a;
-	int length;
+	int x;
 
-	length = 0
-	while (b[length] != '\0')
+	while (c[x] != '\0')
 		{
-		length++;
+		if (c[x] >= 'a' && c[x] <= 'z')
+			{
+			c[x] = c[x] - 'a' + 'A';
+			}
+		x++;
 		}
 
-	for (i = 0; i < length; i++)
-		{
-		if (b[i] >= 'a' && b[i] <= 'z')
-			{
-			_putchar (b[i] - 32);
-			}
-		else
-			{
-			_putchar (b[i]);
-			}
-		}
+	return (c);
 }
