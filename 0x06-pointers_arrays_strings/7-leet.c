@@ -19,7 +19,7 @@ char *leet(char *tgz)
 			if (tgz[x] == alpha[y])
 				{
 				y /= 2;
-				targ[x] = (num[y] + '0');
+				tgz[x] = (num[y] + '0');
 				}
 			}
 		}
