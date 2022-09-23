@@ -20,7 +20,7 @@ char *string_toupper(char *b)
 
 	for (i = 0; i < length; i++)
 		{
-		if (b[i] >= 'a' && b[i] <= 'z' )
+		if (b[i] >= 'a' && b[i] <= 'z')
 			{
 			_putchar (b[i] - 32);
 			}
