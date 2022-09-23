@@ -23,5 +23,5 @@ char *leet(char *tgz)
 				}
 			}
 		}
-	return (tgz)
+	return (tgz);
 }
