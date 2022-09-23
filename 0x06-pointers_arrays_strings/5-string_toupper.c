@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 /**
  * string_toupper - Entry
@@ -11,10 +10,15 @@ char *string_toupper(char *b)
 {
 	int i;
 	int a;
+	int length;
 
-	a = strlen(b);
+	length = 0
+	while (b[length] != '\0')
+		{
+		length++;
+		}
 
-	for (i = 0; i < a; i++)
+	for (i = 0; i < length; i++)
 		{
 		if (b[i] >= 'a' && b[i] <= 'z' )
 			{
