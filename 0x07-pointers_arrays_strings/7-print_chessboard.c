@@ -10,13 +10,13 @@ void print_chessboard(char *a)
 {
 	int i;
 	int len;
+	int c;
 
 	while (a[len] != '\0')
 		{
 		len++;
 		}
 
-	int c;
 	c = len - 7;
 
 	for (i = 0; i <= c; i++)
