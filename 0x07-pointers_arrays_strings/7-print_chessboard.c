@@ -9,17 +9,8 @@
 void print_chessboard(char *a)
 {
 	int i;
-	int len;
-	int c;
 
-	while (a[len] != '\0')
-		{
-		len++;
-		}
-
-	c = len - 7;
-
-	for (i = 0; i <= c; i++)
+	for (i = 0; i < 64; i++)
 		{
 		if (i % 8 == 0)
 			{
