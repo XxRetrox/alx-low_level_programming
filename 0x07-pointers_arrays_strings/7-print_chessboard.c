@@ -15,7 +15,11 @@ void print_chessboard(char *a)
 		{
 		len++;
 		}
-	for (i = 0; i < len; i++)
+
+	int c;
+	c = len - 7;
+
+	for (i = 0; i <= c; i++)
 		{
 		if (i % 8 == 0)
 			{
