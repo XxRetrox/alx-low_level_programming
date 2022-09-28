@@ -10,31 +10,27 @@
 
 void print_diagsums(int *a, int size)
 {
-	int b;
-	int d;
-	int i;
-	int s;
-	int e;
-	int x;
-	int y;
+	int primC, sum1, sum2, diagC1, diagC2, row;
 
-	s = 0;
-	x = 0;
-	i = size + 1;
-	e = size - 1;
-	d = size * size;
-	y = d - e;
+	primC = 0, sum1 = 0, sum2 = 0, diagC1 = 0, diagC2 = 0, row = 0;
 
-	for (b = 0; b < d; b += i)
+	while (primC < size * size)
 		{
-		s = s + a[b];
+		if (primC == diagC1 + (row * size))
+			{
+			sum1 += a[primC];
+			}
+		if (primC == (size - diagC2 - 1) + (row * size))
+			{
+			sum2 += a[primC];
+			}
+		if (((primC + 1) % size) == 0)
+			{
+			row++, diagC1++, diagC2++;
+			}
+		primC++;
 		}
-	printf("%d, ", s);
 
-	for (b = 0; b < y; b += e)
-		{
-		x = x + a[b];
-		}
-	printf("%d", x);
-	printf("\n");
+	printf("%d, ", sum1);
+	printf("%d\n", sum2);
 }
