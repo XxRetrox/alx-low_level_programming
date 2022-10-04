@@ -1,6 +1,13 @@
 #include "main.h"
+#include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
+
+/**
+ * _strdup - Entry
+ * @str: string
+ * Return: copy
+ */
 
 char *_strdup(char *str)
 {
