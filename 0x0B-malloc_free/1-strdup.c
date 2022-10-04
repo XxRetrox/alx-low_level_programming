@@ -17,14 +17,14 @@ char *_strdup(char *str)
 
 	int len;
 
-	len = strlen(str);
-
 	if (str == NULL)
 		{
 		return (NULL);
 		}
 
-	copy = malloc(sizeof(*copy) * len + 1);
+	len = strlen(str);
+
+	copy = malloc(sizeof(*copy) * (len + 1));
 
 	if (copy == NULL)
 		{
