@@ -28,7 +28,7 @@ int main(int argc, char **argv)
 		if (x == 0)
 			{
 			printf("Error\n");
-			return (0);
+			return (1);
 			}
 		a = a + x;
 		}
