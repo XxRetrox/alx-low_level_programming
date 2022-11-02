@@ -8,6 +8,8 @@
 
 #include <fcntl.h>
 
+#include <stdio.h>
+
 /**
  * create_file - creates a file and copies text into it
  * @filename: the filename to create
